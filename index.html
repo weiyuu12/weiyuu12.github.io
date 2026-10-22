@@ -1,0 +1,151 @@
+<!doctype html>
+<!--
+  ============================================================
+  庄旻 · 个人主页
+  用途：Semantic Scholar 注册的「主页网址」
+  以后要改信息，搜索下面的关键词即可定位：
+    <title>      网页标签标题
+    <h1>         姓名
+    class="role" 单位与身份
+    mailto:      邮箱（两处：href 和显示文字）
+  ============================================================
+-->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>庄旻 · 个人主页</title>
+<meta name="description" content="庄旻（Min Zhuang），浙江大学控制科学与工程学院硕士研究生，研究方向为智能无人系统。邮箱：zhuangmin@zju.edu.cn">
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #6b6b6b;
+    --line: #e6e6e6;
+    --link: #1a5f8a;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: #fff;
+    color: var(--ink);
+    font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+          "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 96px 24px 72px;
+  }
+  h1 {
+    margin: 0 0 10px;
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: .01em;
+  }
+  h1 .en {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--muted);
+  }
+  .role {
+    margin: 0;
+    color: var(--muted);
+    font-size: 16px;
+  }
+  .role.en-role {
+    margin-top: 2px;
+    font-size: 14px;
+    color: #9a9a9a;
+  }
+  hr {
+    border: 0;
+    border-top: 1px solid var(--line);
+    margin: 44px 0 36px;
+  }
+  dl {
+    display: grid;
+    grid-template-columns: 92px 1fr;
+    gap: 12px 20px;
+    margin: 0;
+  }
+  dt {
+    color: var(--muted);
+    font-size: 14px;
+    padding-top: 2px;
+  }
+  dd { margin: 0; }
+  a {
+    color: var(--link);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(26, 95, 138, .28);
+  }
+  a:hover { border-bottom-color: var(--link); }
+  .section-title {
+    margin: 40px 0 10px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  footer {
+    margin-top: 64px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    color: #9a9a9a;
+    font-size: 13px;
+  }
+  @media (max-width: 520px) {
+    main { padding: 56px 20px; }
+    h1 { font-size: 28px; }
+    h1 .en { display: block; margin: 6px 0 0; font-size: 17px; }
+    dl { grid-template-columns: 1fr; gap: 2px 0; }
+    dt { padding-top: 12px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>庄旻 <span class="en">Min Zhuang</span></h1>
+  <p class="role">浙江大学 控制科学与工程学院 · 硕士研究生</p>
+  <p class="role en-role">College of Control Science and Engineering, Zhejiang University</p>
+
+  <hr>
+
+  <dl>
+    <dt>Email</dt>
+    <dd><a href="mailto:zhuangmin@zju.edu.cn">zhuangmin@zju.edu.cn</a></dd>
+
+    <dt>单位</dt>
+    <dd>浙江大学 控制科学与工程学院</dd>
+
+    <dt>研究方向</dt>
+    <dd>智能无人系统</dd>
+
+    <!-- 有下面的主页时，取消注释并填入链接即可 -->
+    <!--
+    <dt>Google Scholar</dt>
+    <dd><a href="https://scholar.google.com/citations?user=XXXXXXXX">scholar.google.com</a></dd>
+
+    <dt>ORCID</dt>
+    <dd><a href="https://orcid.org/0000-0002-0000-0000">0000-0002-0000-0000</a></dd>
+
+    <dt>GitHub</dt>
+    <dd><a href="https://github.com/username">github.com/username</a></dd>
+    -->
+  </dl>
+
+  <p class="section-title">简介</p>
+  <p>
+    我是浙江大学控制科学与工程学院硕士研究生，研究方向为智能无人系统，
+    关注无人系统的自主感知、决策与控制问题。如对相关研究有兴趣或有合作意向，
+    欢迎通过上面的邮箱与我联系。
+  </p>
+
+  <footer>
+    Last updated: 2026-10
+  </footer>
+
+</main>
+</body>
+</html>
